@@ -11,6 +11,9 @@ unmanagedClasspath in Runtime += baseDirectory.value / "resources"
 unmanagedClasspath in Test += baseDirectory.value / "resources"
 unmanagedClasspath in (Compile, runMain) += baseDirectory.value / "resources"
 
+mappings in (Compile, packageBin) += {
+  ("professors.txt") -> "professors.txt"
+}
 // https://mvnrepository.com/artifact/org.apache.commons/commons-math3
 //libraryDependencies += "org.apache.commons" % "commons-math3" % "3.6.1"
 //libraryDependencies += "org.scalatest" %% "scalatest" % "3.0.5" % "test"

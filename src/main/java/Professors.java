@@ -7,6 +7,9 @@ import java.util.HashSet;
 import java.util.Set;
 import java.util.regex.Pattern;
 
+/*
+This Class gets the list of all ujic profs and stores it into the map which can be called via objects.
+ */
 public class Professors {
    private Set<String> mySet = new HashSet<String>();
    private java.util.Map<String, String> myMap = new HashMap<String, String>();

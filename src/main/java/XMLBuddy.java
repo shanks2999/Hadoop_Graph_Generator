@@ -19,7 +19,9 @@ import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.apache.hadoop.io.LongWritable;
 import org.apache.hadoop.io.Text;
-
+ /*
+ This class contains the Main, Mapper and reducer code.
+  */
 public class XMLBuddy {
     public static Set<String> mySet = new HashSet<String>();
     public static java.util.Map<String, String> myMap = new HashMap<String, String>();
@@ -40,6 +42,7 @@ public class XMLBuddy {
             String document = value.toString();
             document= StringEscapeUtils.unescapeHtml4(document);
             try{
+                //XML stream approach was having issues parsing so I directly parsed it as a string :)
                 String authors = "";
                 String[] lines = document.split("\n");
                 for(String line: lines) {

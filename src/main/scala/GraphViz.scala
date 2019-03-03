@@ -3,6 +3,12 @@ import java.util
 import java.util.{ArrayList, HashMap, List, Map}
 import scala.io.Source
 
+/*
+This Class generates the .dot file which is required by grapg Viz to generate the graph.
+Just provide the path to the folder in which all the reduced files are stored.
+make sure that there are no files/folder apart from the required ones.
+ */
+
 object GraphViz {
   val authorPublicationMap = new util.HashMap[String, String]
   val nodeSection = new StringBuffer
@@ -14,7 +20,7 @@ object GraphViz {
     val edgeList = new util.ArrayList[String]
     val nodeList = new util.ArrayList[String]
     try {
-      val dir = new File("zzz")
+      val dir = new File(args(0))
       val filesList = dir.listFiles.filter(_.isFile).toList
 //      val br = new BufferedReader(new FileReader(args(0)))
 //      var line: String = Option.empty[String].orNull

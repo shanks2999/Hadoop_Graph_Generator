@@ -1,0 +1,100 @@
+digraph graphVis_authors{
+node [shape = circle fixedsize=true fontsize="60" width=8.672425341971495]; "Andrew\nJohnson\n102"
+node [shape = circle fixedsize=true fontsize="60" width=8.977279923499918]; "Bhaskar\nDasGupta\n126"
+node [shape = circle fixedsize=true fontsize="60" width=9.614709844115207]; "Bing\nLiu\n0001\n196"
+node [shape = circle fixedsize=true fontsize="60" width=8.228818690495881]; "Ian\nKash\n75"
+node [shape = circle fixedsize=true fontsize="60" width=6.0]; "Natalie\nPaige\nParde\n16"
+node [shape = circle fixedsize=true fontsize="60" width=9.546894459887637]; "Ouri\nWolfson\n187"
+node [shape = circle fixedsize=true fontsize="60" width=3.0]; "Patrick\nTroy\n2"
+node [shape = circle fixedsize=true fontsize="60" width=9.0]; "Prasad\nSistla\n128"
+node [shape = circle fixedsize=true fontsize="60" width=6.700439718141093]; "Robert\nKenyon\n26"
+node [shape = circle fixedsize=true fontsize="60" width=6.0]; "William\nMansky\n16"
+node [shape = circle fixedsize=true fontsize="60" width=5.906890595608519]; "Balajee\nVamanan\n15"
+node [shape = circle fixedsize=true fontsize="60" width=8.409390936137703]; "Cornelia\nCaragea\n85"
+node [shape = circle fixedsize=true fontsize="60" width=5.906890595608519]; "Dale\nReed\n15"
+node [shape = circle fixedsize=true fontsize="60" width=9.228818690495881]; "Daniel\nBernstein\n150"
+node [shape = circle fixedsize=true fontsize="60" width=5.584962500721156]; "Elena\nZheleva\n12"
+node [shape = circle fixedsize=true fontsize="60" width=4.0]; "Gonzalo\nBello\n4"
+node [shape = circle fixedsize=true fontsize="60" width=6.807354922057604]; "Jason\nPolakis\n28"
+node [shape = circle fixedsize=true fontsize="60" width=3.0]; "John\nBell\n2"
+node [shape = circle fixedsize=true fontsize="60" width=8.044394119358454]; "Mark\nGrechanik\n66"
+node [shape = circle fixedsize=true fontsize="60" width=5.169925001442312]; "Nasim\nMobasheri\n9"
+node [shape = circle fixedsize=true fontsize="60" width=12.250298417906333]; "Philip\nYu\n1218"
+node [shape = circle fixedsize=true fontsize="60" width=2.0]; "Shanon\nReckinger\n1"
+node [shape = circle fixedsize=true fontsize="60" width=7.392317422778761]; "Ugo\nBuy\n42"
+node [shape = circle fixedsize=true fontsize="60" width=8.357552004618086]; "Xinhua\nZhang\n82"
+node [shape = circle fixedsize=true fontsize="60" width=8.820178962415188]; "Ajay\nKshemkalyani\n113"
+node [shape = circle fixedsize=true fontsize="60" width=8.643856189774725]; "Anastasios\nSidiropoulos\n100"
+node [shape = circle fixedsize=true fontsize="60" width=8.845490050944376]; "Barbara\nEugenio\n115"
+node [shape = circle fixedsize=true fontsize="60" width=5.807354922057604]; "Brent\nStephens\n14"
+node [shape = circle fixedsize=true fontsize="60" width=7.857980995127572]; "Brian\nZiebart\n58"
+node [shape = circle fixedsize=true fontsize="60" width=7.426264754702098]; "Chris\nKanich\n43"
+node [shape = circle fixedsize=true fontsize="60" width=5.700439718141093]; "Debaleena\nChattopadhyay\n13"
+node [shape = circle fixedsize=true fontsize="60" width=5.0]; "Emanuelle\nBurton\n8"
+node [shape = circle fixedsize=true fontsize="60" width=2.0]; "Evan\nMcCarty\n1"
+node [shape = circle fixedsize=true fontsize="60" width=7.247927513443585]; "Georgeta\nElisabeta\nMarai\n38"
+node [shape = circle fixedsize=true fontsize="60" width=9.0]; "Isabel\nCruz\n128"
+node [shape = circle fixedsize=true fontsize="60" width=6.954196310386876]; "Jakob\nEriksson\n31"
+node [shape = circle fixedsize=true fontsize="60" width=7.129283016944966]; "John\nLillis\n35"
+node [shape = circle fixedsize=true fontsize="60" width=7.3219280948873635]; "Jon\nSolworth\n40"
+node [shape = circle fixedsize=true fontsize="60" width=5.700439718141093]; "Joseph\nHummel\n13"
+node [shape = circle fixedsize=true fontsize="60" width=8.491853096329674]; "Lenore\nZuck\n90"
+node [shape = circle fixedsize=true fontsize="60" width=7.357552004618084]; "Luc\nRenambot\n41"
+node [shape = circle fixedsize=true fontsize="60" width=6.523561956057012]; "Mitchell\nTheys\n23"
+node [shape = circle fixedsize=true fontsize="60" width=7.392317422778761]; "Peter\nNelson\n42"
+node [shape = circle fixedsize=true fontsize="60" width=8.247927513443585]; "Piotr\nGmytrasiewicz\n76"
+node [shape = circle fixedsize=true fontsize="60" width=8.523561956057012]; "Robert\nSloan\n92"
+node [shape = circle fixedsize=true fontsize="60" width=2.0]; "Scott\nReckinger\n1"
+node [shape = circle fixedsize=true fontsize="60" width=8.357552004618086]; "Tanya\nBerger-Wolf\n82"
+node [shape = circle fixedsize=true fontsize="60" width=7.78135971352466]; "V.\nVenkatakrishnan\n55"
+node [shape = circle fixedsize=true fontsize="60" width=7.247927513443585]; "Xiaorui\nSun\n38"
+node [shape = circle fixedsize=true fontsize="60" width=5.584962500721156]; "Xingbo\n12"
+"Andrew\nJohnson\n102" -> "Barbara\nEugenio\n115"[ fontsize="50" label ="2" ][dir="both"];
+"Andrew\nJohnson\n102" -> "Tanya\nBerger-Wolf\n82"[ fontsize="50" label ="1" ][dir="both"];
+"Barbara\nEugenio\n115" -> "Luc\nRenambot\n41"[ fontsize="50" label ="1" ][dir="both"];
+"Bhaskar\nDasGupta\n126" -> "Ouri\nWolfson\n187"[ fontsize="50" label ="5" ][dir="both"];
+"Bhaskar\nDasGupta\n126" -> "Robert\nSloan\n92"[ fontsize="50" label ="2" ][dir="both"];
+"Bing\nLiu\n0001\n196" -> "Philip\nYu\n1218"[ fontsize="50" label ="18" ][dir="both"];
+"Brian\nZiebart\n58" -> "Chris\nKanich\n43"[ fontsize="50" label ="1" ][dir="both"];
+"Daniel\nBernstein\n150" -> "Jon\nSolworth\n40"[ fontsize="50" label ="2" ][dir="both"];
+"Lenore\nZuck\n90" -> "Prasad\nSistla\n128"[ fontsize="50" label ="6" ][dir="both"];
+"Mark\nGrechanik\n66" -> "Ugo\nBuy\n42"[ fontsize="50" label ="3" ][dir="both"];
+"Ouri\nWolfson\n187" -> "Peter\nNelson\n42"[ fontsize="50" label ="2" ][dir="both"];
+"Ouri\nWolfson\n187" -> "Philip\nYu\n1218"[ fontsize="50" label ="4" ][dir="both"];
+"Ajay\nKshemkalyani\n113" -> "Ugo\nBuy\n42"[ fontsize="50" label ="1" ][dir="both"];
+"Barbara\nEugenio\n115" -> "Isabel\nCruz\n128"[ fontsize="50" label ="2" ][dir="both"];
+"Barbara\nEugenio\n115" -> "Peter\nNelson\n42"[ fontsize="50" label ="3" ][dir="both"];
+"Bhaskar\nDasGupta\n126" -> "Tanya\nBerger-Wolf\n82"[ fontsize="50" label ="12" ][dir="both"];
+"Bing\nLiu\n0001\n196" -> "Ouri\nWolfson\n187"[ fontsize="50" label ="1" ][dir="both"];
+"Chris\nKanich\n43" -> "Tanya\nBerger-Wolf\n82"[ fontsize="50" label ="4" ][dir="both"];
+"Isabel\nCruz\n128" -> "Ouri\nWolfson\n187"[ fontsize="50" label ="4" ][dir="both"];
+"Isabel\nCruz\n128" -> "Prasad\nSistla\n128"[ fontsize="50" label ="2" ][dir="both"];
+"Jon\nSolworth\n40" -> "Robert\nSloan\n92"[ fontsize="50" label ="3" ][dir="both"];
+"Ouri\nWolfson\n187" -> "Robert\nSloan\n92"[ fontsize="50" label ="2" ][dir="both"];
+"Ouri\nWolfson\n187" -> "Ugo\nBuy\n42"[ fontsize="50" label ="1" ][dir="both"];
+"Peter\nNelson\n42" -> "Prasad\nSistla\n128"[ fontsize="50" label ="1" ][dir="both"];
+"Prasad\nSistla\n128" -> "V.\nVenkatakrishnan\n55"[ fontsize="50" label ="8" ][dir="both"];
+"Robert\nKenyon\n26" -> "Tanya\nBerger-Wolf\n82"[ fontsize="50" label ="2" ][dir="both"];
+"Anastasios\nSidiropoulos\n100" -> "Bhaskar\nDasGupta\n126"[ fontsize="50" label ="1" ][dir="both"];
+"Andrew\nJohnson\n102" -> "Luc\nRenambot\n41"[ fontsize="50" label ="26" ][dir="both"];
+"Barbara\nEugenio\n115" -> "Brian\nZiebart\n58"[ fontsize="50" label ="1" ][dir="both"];
+"Barbara\nEugenio\n115" -> "Ouri\nWolfson\n187"[ fontsize="50" label ="2" ][dir="both"];
+"Bhaskar\nDasGupta\n126" -> "Nasim\nMobasheri\n9"[ fontsize="50" label ="9" ][dir="both"];
+"Bing\nLiu\n0001\n196" -> "Isabel\nCruz\n128"[ fontsize="50" label ="1" ][dir="both"];
+"Bing\nLiu\n0001\n196" -> "Prasad\nSistla\n128"[ fontsize="50" label ="1" ][dir="both"];
+"Brian\nZiebart\n58" -> "Tanya\nBerger-Wolf\n82"[ fontsize="50" label ="2" ][dir="both"];
+"Brian\nZiebart\n58" -> "Xinhua\nZhang\n82"[ fontsize="50" label ="4" ][dir="both"];
+"Chris\nKanich\n43" -> "Jason\nPolakis\n28"[ fontsize="50" label ="1" ][dir="both"];
+"Chris\nKanich\n43" -> "Philip\nYu\n1218"[ fontsize="50" label ="2" ][dir="both"];
+"Georgeta\nElisabeta\nMarai\n38" -> "Robert\nKenyon\n26"[ fontsize="50" label ="1" ][dir="both"];
+"Lenore\nZuck\n90" -> "V.\nVenkatakrishnan\n55"[ fontsize="50" label ="5" ][dir="both"];
+"Ouri\nWolfson\n187" -> "Prasad\nSistla\n128"[ fontsize="50" label ="22" ][dir="both"];
+"Patrick\nTroy\n2" -> "Robert\nSloan\n92"[ fontsize="50" label ="1" ][dir="both"];
+"Peter\nNelson\n42" -> "Philip\nYu\n1218"[ fontsize="50" label ="1" ][dir="both"];
+"Peter\nNelson\n42" -> "Tanya\nBerger-Wolf\n82"[ fontsize="50" label ="2" ][dir="both"];
+"Philip\nYu\n1218" -> "Ugo\nBuy\n42"[ fontsize="50" label ="4" ][dir="both"];
+"Prasad\nSistla\n128" -> "Robert\nSloan\n92"[ fontsize="50" label ="1" ][dir="both"];
+"Robert\nSloan\n92" -> "Tanya\nBerger-Wolf\n82"[ fontsize="50" label ="1" ][dir="both"];
+"Robert\nSloan\n92" -> "Ugo\nBuy\n42"[ fontsize="50" label ="5" ][dir="both"];
+"Robert\nKenyon\n26" -> "Ugo\nBuy\n42"[ fontsize="50" label ="1" ][dir="both"];
+}
