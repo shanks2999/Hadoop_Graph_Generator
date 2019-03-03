@@ -37,7 +37,8 @@ This is a XML parsing using Hadoop's MapReduce Framework which setup locally and
  
  **Bonus:**
  
- - Youtube Link: 
+ - Youtube Link:  https://youtu.be/cgfoCwSOcPw
+ 
  
 
  PS: spent more than 5 days in setting up HortonWorks VM and installing/configuring Hadoop locally
