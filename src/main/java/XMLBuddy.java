@@ -103,7 +103,7 @@ public class XMLBuddy {
         Instant start = Instant.now();
 //        new XMLBuddy().getProfessors();
 
-        System.setProperty("hadoop.home.dir", "C:/hadoop-2.8.0");
+//        System.setProperty("hadoop.home.dir", "C:/hadoop-2.8.0");
         Configuration conf = new Configuration();
         Job job = Job.getInstance(conf, "xml count");
 //        System.out.println(new Path("/professors.txt").toUri());

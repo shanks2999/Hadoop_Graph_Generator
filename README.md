@@ -32,6 +32,7 @@ This is a XML parsing using Hadoop's MapReduce Framework which setup locally and
  - The project can be executed either via IntelliJ or SBT locally and deployed on VM using the Jars Provided in Jars folder.
  - Parameters expected are the input and output folder
  - For GraphViz file the parameters is the directory in which all the files present.
+ - To run locally uncomment line 106 in 'XMLByddy' class which sets the system property for hadoop.
  
  
  **Bonus:**
