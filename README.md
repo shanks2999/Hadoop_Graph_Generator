@@ -4,7 +4,8 @@
 
 
 **Description:**  
-This is a XML parsing using Hadoop's MapReduce Framework which setup locally and tested on Hortonworks VM as well as deployed on AWS EMR. The resulting MapReduce output is also plotted into a Graph (.dot file via GraphViz)   
+A map/reduce program for parallel processing of the [publically available DBLP dataset](https://dblp.uni-trier.de) that contains entries for various publications at many different venues (e.g., conferences and journals). Raw [XML-based DMBLP dataset](https://dblp.uni-trier.de/xml) is also publically available along with its schema and the documentation.  
+A graph is also generated where the nodes are the faculty members of our CS department, the sizes of the nodes corresponds to the number of publication each faculty member has, and the edges correspond to joint publications between different faculty members. Each edge has a corresponding weight that shows the number of publications where two faculty members co-authored. A mapper and the reducer are created for this task and run on the DBLP dataset. The output produces a list of relations between our faculty members, i.e., <fk, (fr,..., fp)> where the faculty member, fk, published papers with the faculty members fr, ..., fp. The output of your map/reduce is an input to a graph visualization tool of [GraphViz](https://www.graphviz.org)).
 
 
 **Project Structure:** 
