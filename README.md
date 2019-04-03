@@ -1,10 +1,10 @@
 # README #
 
-# Cloud CS441 - Homework 2 #
+# Hadoop_Graph_Generator #
 
 
 **Description:**  
-This is a XML parsing using Hadoop's MapReduce Framework which setup locally and tested on Hortonworks VM as well as deployed on EMR.   
+This is a XML parsing using Hadoop's MapReduce Framework which setup locally and tested on Hortonworks VM as well as deployed on AWS EMR. The resulting MapReduce output is also plotted into a Graph (.dot file via GraphViz)   
 
 
 **Project Structure:** 
@@ -26,6 +26,7 @@ This is a XML parsing using Hadoop's MapReduce Framework which setup locally and
  - The authors name after map reduce process is sorted in ascending order to avoid ambiguity between same author names in the graph.
  - Compiled jar is in the jar's folder
  - For graphViz the graphViz.dot file as well as author_graph.png is also provided for reference.
+ - The scala code converts the MapReduce output to a .dot file which is used via GraphViz to create a graph. You can also do the same by typing: **dot -Tpng -o graphViz.dot author_graph.png**
  
 **Execution:**
 
@@ -35,12 +36,8 @@ This is a XML parsing using Hadoop's MapReduce Framework which setup locally and
  - To run locally uncomment line 106 in 'XMLByddy' class which sets the system property for hadoop.
  
  
- **Bonus:**
+ **The Map/Reduce framework is also deployed on AWS EMR**
  
  - Youtube Link:  https://youtu.be/cgfoCwSOcPw
  
  
-
- PS: spent more than 5 days in setting up HortonWorks VM and installing/configuring Hadoop locally
- 
-That's It ! :) 
